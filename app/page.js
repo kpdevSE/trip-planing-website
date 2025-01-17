@@ -14,7 +14,7 @@ export default function Home() {
       >
         <NavigationBar />
         <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none"></div>
-        <div className="relative z-10 text-white text-center w-[90%] m-auto flex flex-col items-start justify-center">
+        <div className="relative z-10 text-white lg:text-center text-start w-[90%] m-auto flex flex-col items-start lg:justify-center justify-start">
           <h1 className="text-[40px] font-bold">
             Mountains | museums | Beaches
           </h1>
@@ -90,7 +90,7 @@ export default function Home() {
                   <Link href={"/sign-in"} className="mt-2">
                     <button
                       type="button"
-                      class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                      className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
                     >
                       View More
                     </button>

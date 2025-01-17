@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.9",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "@radix-ui/react-slot": "^1.1.1",
     "@react-google-maps/api": "^2.20.5",
     "@stripe/react-stripe-js": "^3.1.1",
